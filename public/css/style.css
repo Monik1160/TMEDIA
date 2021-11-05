@@ -1,0 +1,88 @@
+.button_disable {
+    pointer-events: none;
+    cursor: default;
+}
+
+.button_disable_color i {
+    color: grey !important;
+}
+
+.ready_button {
+    color: green !important;
+}
+
+.campaign_button i {
+    color: grey;
+    padding-right: 7px;
+}
+
+.progress_button{
+    color: #d2d246 !important;
+    cursor: pointer;
+}
+
+.color_black{
+    color: #d2d246 !important;
+}
+
+/*Sidebar*/
+
+.sidebar {
+    color: black;
+    background: white;
+}
+
+.bg-bamboo-primary {
+    background-color: #25303D; !important;
+}
+
+.sidebar .nav-link {
+    color: #000;
+}
+
+.sidebar .nav-title {
+    color: #000;
+}
+
+.sidebar .nav-link.active {
+    color: #fff;
+    background: #25303D;
+}
+
+.sidebar .nav-link:hover {
+    color: #fff;
+    background: #7ac143;
+}
+
+.sidebar .nav-dropdown.open > .nav-dropdown-items {
+    background: #aebccc;
+}
+
+.sidebar .nav-dropdown.open .nav-link {
+    color: black;
+    border-left: 0;
+}
+
+.sidebar .nav-dropdown.open {
+    background: #7ac143;
+}
+
+.sidebar .nav-link.active .nav-icon {
+    color: white;
+}
+
+.sidebar .nav-link.active {
+    color: white !important;
+}
+/*buttons*/
+
+.btn-primary, .dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    background-color: #7ac143;
+    border-color: #7ac143;
+}
+
+
+.btn-primary:hover, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    background-color: #25303D;
+    border-color: #25303D;
+}

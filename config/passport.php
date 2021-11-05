@@ -1,0 +1,8 @@
+<?php
+
+return [
+    'PERSONAL_CLIENT_ID' => env('PERSONAL_CLIENT_ID', null),
+    'PERSONAL_CLIENT_SECRET' => env('PERSONAL_CLIENT_SECRET', null),
+    'PASSWORD_CLIENT_ID' => env('PASSWORD_CLIENT_ID', null),
+    'PASSWORD_CLIENT_SECRET' => env('PASSWORD_CLIENT_SECRET', null),
+];
